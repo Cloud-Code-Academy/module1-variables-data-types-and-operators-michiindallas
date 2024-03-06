@@ -69,8 +69,10 @@ public with sharing class VariablesDataTypesOperators {
      * @param b The denominator.
      * @return The quotient of the division, or 0 if the denominator is zero.
      */
-    public static Decimal division(Integer a, Integer b) {
-        return null; // Replace null with the variable you used to store the result
+    public static Decimal division(Integer a, Integer b) {  
+        if (b =0) { 
+            return null;}
+            else (a/b);
     }
 
     /**
@@ -94,8 +96,10 @@ public with sharing class VariablesDataTypesOperators {
      * @param num The number to check.
      * @return true if the number is positive, false otherwise.
      */
-    public static Boolean isPositive(Integer num) {
-        return null; // Replace null with the variable you used to store the result
+    public static Boolean isPositive(Integer num) {  
+        if (num >0) { 
+            return true;}
+            else false;
     }
 
     /**
