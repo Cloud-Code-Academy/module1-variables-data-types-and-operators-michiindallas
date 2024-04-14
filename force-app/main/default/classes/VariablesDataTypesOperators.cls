@@ -139,7 +139,7 @@ public with sharing class VariablesDataTypesOperators {
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
     {
-		return 'The ' + ' ' +  noun + ' ' + 'is' + ' ' + verb + ' ' +  endingPunctuation; // Replace null with the variable you used to store the result
+		return 'The ' + noun + ' is ' + verb + endingPunctuation; // Replace null with the variable you used to store the result
 	}
 }
 
